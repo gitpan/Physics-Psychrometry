@@ -27,7 +27,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '1.0';
+our $VERSION = '1.1';
 
 # based on http://www.bae.uky.edu/gates/psych/PTM/dbrh2al.c
 #The dry-bulb temperature (C)       =? 24.6
@@ -159,7 +159,7 @@ sub dbw2v
 {
     my ($db, $w, $p) = @_;
 
-    $db += 273.16;
+    $db += 273.15;
     return (287.055 * $db * ( 1 + 1.6078 * $w)) / ($p * 1000.0);
 }
 

@@ -58,7 +58,7 @@ sub closeto
 {
     my ($actual, $expected, $tolerance) = @_;
 
-#    print "$actual, $expected\n";
+    print "$actual, $expected\n";
     $tolerance = 0.0001 unless defined $tolerance;
 
     my $t = $expected * $tolerance;
