@@ -8,5 +8,5 @@ WriteMakefile(
     PREREQ_PM         => {},
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Physics/Psychrometry.pm',
-       AUTHOR         => 'Mike McCauley <mikem@open.com.au>') : ()),
+       AUTHOR         => 'Mike McCauley <mikem@airspayce.com>') : ()),
 );

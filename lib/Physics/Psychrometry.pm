@@ -27,7 +27,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '1.1';
+our $VERSION = '1.2';
 
 # based on http://www.bae.uky.edu/gates/psych/PTM/dbrh2al.c
 #The dry-bulb temperature (C)       =? 24.6
@@ -311,7 +311,7 @@ Based on http://www.bae.uky.edu/gates/psych/PTM/dbrh2al.c
 
 =head1 AUTHOR
 
-Mike McCauley, E<lt>mikem@open.com.auE<gt>
+Mike McCauley, E<lt>mikem@airspayce.comE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
